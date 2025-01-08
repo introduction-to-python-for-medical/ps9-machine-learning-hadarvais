@@ -10,7 +10,7 @@ from sklearn.svm import SVC
 df = pd.read_csv('parkinsons.csv')
 df.head()
 
-selected_features = [['HNR', 'RPDE']]
+selected_features = [['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)']]
 output_features = ['status']
 
 # Assuming 'selected_features' is a list of lists, where each inner list contains the column names.
