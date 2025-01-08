@@ -1,2 +1,4 @@
 selected_features = [['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)']]
 output_features = ['status']
+
+path: "my_model.joblib"
